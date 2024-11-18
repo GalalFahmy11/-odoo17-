@@ -1,0 +1,21 @@
+<odoo>
+	 <record model="ir.ui.view" id="show_completed_order">
+		  <field name="name">show completed order</field>
+		  <field name="model">my.completed.order</field>
+		  <field name="arch" type="xml">
+				<form string="completed.order">
+
+					 <sheet>
+						  <group string="Base Information">
+								<field name="Restaurant"/>
+								<field name="name"/>
+								<field name="item"/>
+								<field name="completion_date"/>
+								<field name="delivered_by"/>
+								<field name="total_amount"/>
+						  </group>
+					 </sheet>
+				</form>
+		  </field>
+	 </record>
+</odoo>
